@@ -17,10 +17,10 @@ log_message() {
 }
 log_message "Start"
 
-# Check if Tricky Store module is installed (required dependency)
+# Check if module Tricky Store is installed (required dependency)
 if [ ! -d "$DEPENDENCY_MODULE_UPDATE" ] && [ ! -d "$DEPENDENCY_MODULE" ]; then
   log_message "Error: Tricky Store module file not found!"
-  log_message "Please install Tricky Store before using Yuri Keybox."
+  log_message "Please install module Tricky Store before using Yuri Keybox."
   return 0
 fi
 

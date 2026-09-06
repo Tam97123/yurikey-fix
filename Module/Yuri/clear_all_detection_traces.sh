@@ -128,7 +128,7 @@ tool_apps_data() { # Same as detector_data, but for tool apps
     remove_path "/storage/emulated/0/Android/data/moe.shizuku.privileged.api"
     remove_path "/storage/emulated/0/Android/data/com.estrongs.android.pop"
     remove_path "/storage/emulated/0/Android/data/com.coolapk.market"
-    mv "/storage/emulated/0/MT2" "/storage/emulated/0/MT"
+    remove_path "/storage/emulated/0/MT2"
     remove_path "/storage/emulated/0/bin.mt.termux"
     remove_path "/storage/emulated/0/com.termux"
     remove_path "/storage/emulated/0/xzr.hkf"
